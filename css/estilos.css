@@ -80,7 +80,7 @@
     list-style: none;
     text-decoration: none;
     background-color: rgb(125, 233, 197);
-    align-content: center;
+    align-content: flex-start;
 }
 
 .rrss ul li {
@@ -91,7 +91,7 @@
 }
 
 .rescatamos {
-    text-align: end;
+    text-align: left;
     /* padding-left: 300px; */
 }
 
