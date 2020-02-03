@@ -80,6 +80,7 @@
     list-style: none;
     text-decoration: none;
     background-color: rgb(125, 233, 197);
+    align-content: center;
 }
 
 .rrss ul li {
@@ -124,10 +125,12 @@
 @media (max-width:640px){
     .telefono {
     visibility: hidden;
+    /* content: none; */
     }
 
     .rescatamos {
     visibility: hidden;
+    /* content: none; */
     }
 
     .facebook {
