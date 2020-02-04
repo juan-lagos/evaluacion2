@@ -91,8 +91,7 @@
 
 .rescatamos {
     text-align: left;
-    /* padding-left: 300px; */
-}
+    }
 
 .facebook {
     float: right;
@@ -121,17 +120,13 @@
     height: 50px;
     margin: 5px;
 }
-@media (max-width:640px){
+@media (max-width:718px){
     .telefono {
         display: none !important;
-    /* visibility: hidden; */
-    /* content: none; */
-    }
+     }
 
     .rescatamos {
         display: none !important;
-    /* visibility: hidden; */
-    /* content: none; */
     }
 
     .facebook {
@@ -142,17 +137,17 @@
     }
     
     .instagram {
-        float: center;
-        width: 50px;
-        height: 50px;
-        margin: 5px;
+      float: center;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
     }
     
     .google {
-        float: center;
-        width: 50px;
-        height: 50px;
-        margin: 5px;
+      float: center;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
     }
     
     .mail {
