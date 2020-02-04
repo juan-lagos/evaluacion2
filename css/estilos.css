@@ -61,7 +61,6 @@
         display: inline-block;
         list-style: none;
         transition: 0.3s;
-    
     }
 }
 @media (max-width:640px){
