@@ -123,12 +123,14 @@
 }
 @media (max-width:640px){
     .telefono {
-    visibility: hidden;
+        display: none !important;
+    /* visibility: hidden; */
     /* content: none; */
     }
 
     .rescatamos {
-    visibility: hidden;
+        display: none !important;
+    /* visibility: hidden; */
     /* content: none; */
     }
 
