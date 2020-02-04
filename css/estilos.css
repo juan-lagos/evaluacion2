@@ -67,7 +67,7 @@
     .logo {
         float: left;
         height: auto;
-        max-width: fit-content;
+        min-width: max-content;
         }
 }
 
@@ -124,36 +124,19 @@
     .telefono {
         display: none !important;
      }
-
     .rescatamos {
         display: none !important;
     }
-
     .facebook {
         float: initial;
-        width: 50px;
-        height: 50px;
-        margin: 10px;
     }
-    
     .instagram {
       float: initial;
-      width: 50px;
-      height: 50px;
-      margin: 10px;
-    }
-    
+    } 
     .google {
       float: initial;
-      width: 50px;
-      height: 50px;
-      margin: 10px;
     }
-    
     .mail {
         float: initial;
-        width: 50px;
-        height: 50px;
-        margin: 10px;
     }
 }
