@@ -50,7 +50,7 @@
     background-color: rgb(63, 221, 168);
     max-height: 300px;
 }
-@media (max-width:640px){
+@media (max-width:850px){
     .topnav a {
         color: #f2f2f2;
         width: 300px;
@@ -61,13 +61,82 @@
         display: inline-block;
         list-style: none;
         transition: 0.3s;
-    
     }
 }
-@media (max-width:640px){
+@media (max-width:850px){
     .logo {
         float: left;
         height: auto;
-        max-width: fit-content;
+        min-width: max-content;
         }
+}
+
+.rrss {
+    display: inline-block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(125, 233, 197);
+    align-content: flex-start;
+}
+
+.rrss ul li {
+    display: inline;
+}
+.telefono {
+    text-align: left;
+}
+
+.rescatamos {
+    text-align: left;
+    }
+
+.facebook {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.instagram {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.google {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.mail {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+@media (max-width:718px){
+    .telefono {
+        display: none !important;
+     }
+    .rescatamos {
+        display: none !important;
+    }
+    .facebook {
+        float: initial;
+    }
+    .instagram {
+      float: initial;
+    } 
+    .google {
+      float: initial;
+    }
+    .mail {
+        float: initial;
+    }
 }
