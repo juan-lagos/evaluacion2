@@ -50,7 +50,7 @@
     background-color: rgb(63, 221, 168);
     max-height: 300px;
 }
-@media (max-width:640px){
+@media (max-width:850px){
     .topnav a {
         color: #f2f2f2;
         width: 300px;
@@ -63,7 +63,7 @@
         transition: 0.3s;
     }
 }
-@media (max-width:640px){
+@media (max-width:850px){
     .logo {
         float: left;
         height: auto;
@@ -130,30 +130,30 @@
     }
 
     .facebook {
-        float: center;
+        float: initial;
         width: 50px;
         height: 50px;
-        margin: 5px;
+        margin: 10px;
     }
     
     .instagram {
-      float: center;
+      float: initial;
       width: 50px;
       height: 50px;
-      margin: 5px;
+      margin: 10px;
     }
     
     .google {
-      float: center;
+      float: initial;
       width: 50px;
       height: 50px;
-      margin: 5px;
+      margin: 10px;
     }
     
     .mail {
-        float: center;
+        float: initial;
         width: 50px;
         height: 50px;
-        margin: 5px;
+        margin: 10px;
     }
 }
