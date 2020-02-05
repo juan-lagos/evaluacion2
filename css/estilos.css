@@ -71,7 +71,6 @@
     list-style: none;
     text-decoration: none;
     background-color: rgb(63, 221, 168);
-    align-content: flex-start;
 }
 
 .rrss ul li {
@@ -134,6 +133,104 @@
 }
 /* seccion2 */
 
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.flexbox-container > div {
+	width: 45%;
+	padding: 10px;
+  background: #fff;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+.rescate {
+    /* float: left; */
+    max-width: 45%;
+}
+
+.titulorescate {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulorescate {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+
+.textorescate {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenrescate {
+    float: right;
+}
+
+/* .crowdfunding {
+    margin-left: 50%; 
+}*/
+
+.imagencrowdfunding {
+    max-width: 300px;
+}
+
+.titulocrowdfunding {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulocrowdfunding {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+
+.textocrowdfunding {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.linkcampañas {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    border-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+.linkcampañas:hover {
+    background-color: black;
+    color: white;
+}
+
+.linkcampañas:visited {
+    text-decoration: none;
+}
+
+.divisorrescate {
+    margin-left: 90%;
+}
+
+.divisorcrowdfunding {
+    margin-right: 90%;
+}
+
+.seccion2 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
 /* seccion3 */
 .seccion3 {
     background-color: rgb(63, 221, 168);
@@ -149,3 +246,13 @@
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
     max-width: 22%;
   }
+  .tituloenconstruccion {
+    text-align: center;
+}
+
+.logoherramientas {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
