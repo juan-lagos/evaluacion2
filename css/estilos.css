@@ -170,14 +170,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex-direction: column;
-    max-height: 300px;
-    overflow-x: scroll;
+    flex-direction: row;
+    max-height: auto;
+    overflow-x: auto;
+    width: 100%;
 }
   .galeria img {
     margin: 5px;
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-    max-width: 22%;
+    max-width: 20vh;
   }
   .tituloenconstruccion {
     text-align: center;
