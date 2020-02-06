@@ -258,3 +258,24 @@
         float: initial;
     }
 }
+
+.oso {
+    display: block;
+    margin: auto;
+    max-width: width 100px;
+    height: 7cm;
+    width: 10cm;
+}
+.titulo {display: block;
+    text-align: center;
+    
+}
+p {display: block;
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+  
+}
+.tabla {
+    text-align: center;
+}
